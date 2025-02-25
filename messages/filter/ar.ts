@@ -1,0 +1,25 @@
+const filterAr = {
+	filter: 'الفلتر',
+	brand: 'العلامة التجارية',
+	category: 'الفئة',
+	price: 'السعر',
+	rating: 'التقيم',
+	dosageForm: 'شكل المنتج',
+	from: 'من',
+	to: 'إلي',
+	apply: 'فلتر',
+	clear: 'مسح',
+	clearAll: 'مسح الكل',
+	select: 'إختر',
+	sortBy: 'ترتيب حسب',
+	bestSellers: 'الأكثر مبيعا',
+	topRated: 'الأعلي تقيما',
+	az: 'أ-ي',
+	za: 'ي-أ',
+	lth: 'السعر من الأقل للأعلي',
+	htl: 'السعر من الأعلي للأقل',
+	newOld: 'الأحدث',
+	oldNew: 'الأقدم',
+};
+
+export default filterAr;

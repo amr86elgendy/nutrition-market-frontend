@@ -1,0 +1,347 @@
+/* Light */
+@utility typography-L10 {
+	font-weight: 300;
+	font-size: 10px;
+}
+@utility typography-L11 {
+	font-weight: 300;
+	font-size: 11px;
+}
+@utility typography-L12 {
+	font-weight: 300;
+	font-size: 12px;
+}
+@utility typography-L13 {
+	font-weight: 300;
+	font-size: 13px;
+}
+@utility typography-L14 {
+	font-weight: 300;
+	font-size: 14px;
+}
+@utility typography-L15 {
+	font-weight: 300;
+	font-size: 15px;
+}
+@utility typography-L16 {
+	font-weight: 300;
+	font-size: 16px;
+}
+@utility typography-L18 {
+	font-weight: 300;
+	font-size: 18px;
+}
+@utility typography-L20 {
+	font-weight: 300;
+	font-size: 20px;
+}
+@utility typography-L22 {
+	font-weight: 300;
+	font-size: 22px;
+}
+@utility typography-L24 {
+	font-weight: 300;
+	font-size: 24px;
+}
+@utility typography-L26 {
+	font-weight: 300;
+	font-size: 26px;
+}
+@utility typography-L28 {
+	font-weight: 300;
+	font-size: 28px;
+}
+@utility typography-L30 {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+/* Regular */
+@utility typography-R10 {
+	font-weight: 400;
+	font-size: 10px;
+}
+@utility typography-R11 {
+	font-weight: 400;
+	font-size: 11px;
+}
+@utility typography-R12 {
+	font-weight: 400;
+	font-size: 12px;
+}
+@utility typography-R13 {
+	font-weight: 400;
+	font-size: 13px;
+}
+@utility typography-R14 {
+	font-weight: 400;
+	font-size: 14px;
+}
+@utility typography-R15 {
+	font-weight: 400;
+	font-size: 15px;
+}
+@utility typography-R16 {
+	font-weight: 400;
+	font-size: 16px;
+}
+@utility typography-R18 {
+	font-weight: 400;
+	font-size: 18px;
+}
+@utility typography-R20 {
+	font-weight: 400;
+	font-size: 20px;
+}
+@utility typography-R22 {
+	font-weight: 400;
+	font-size: 22px;
+}
+@utility typography-R24 {
+	font-weight: 400;
+	font-size: 24px;
+}
+@utility typography-R26 {
+	font-weight: 400;
+	font-size: 26px;
+}
+@utility typography-R28 {
+	font-weight: 400;
+	font-size: 28px;
+}
+@utility typography-R30 {
+	font-weight: 400;
+	font-size: 30px;
+}
+
+/* Medium */
+@utility typography-M10 {
+	font-weight: 500;
+	font-size: 10px;
+}
+@utility typography-M11 {
+	font-weight: 500;
+	font-size: 11px;
+}
+@utility typography-M12 {
+	font-weight: 500;
+	font-size: 12px;
+}
+@utility typography-M13 {
+	font-weight: 500;
+	font-size: 13px;
+}
+@utility typography-M14 {
+	font-weight: 500;
+	font-size: 14px;
+}
+@utility typography-M15 {
+	font-weight: 500;
+	font-size: 15px;
+}
+@utility typography-M16 {
+	font-weight: 500;
+	font-size: 16px;
+}
+@utility typography-M18 {
+	font-weight: 500;
+	font-size: 18px;
+}
+@utility typography-M20 {
+	font-weight: 500;
+	font-size: 20px;
+}
+@utility typography-M22 {
+	font-weight: 500;
+	font-size: 22px;
+}
+@utility typography-M24 {
+	font-weight: 500;
+	font-size: 24px;
+}
+@utility typography-M26 {
+	font-weight: 500;
+	font-size: 26px;
+}
+@utility typography-M28 {
+	font-weight: 500;
+	font-size: 28px;
+}
+@utility typography-M30 {
+	font-weight: 500;
+	font-size: 30px;
+}
+
+/* Semi Bold */
+@utility typography-SB10 {
+	font-weight: 600;
+	font-size: 10px;
+}
+@utility typography-SB11 {
+	font-weight: 600;
+	font-size: 11px;
+}
+@utility typography-SB12 {
+	font-weight: 600;
+	font-size: 12px;
+}
+@utility typography-SB13 {
+	font-weight: 600;
+	font-size: 13px;
+}
+@utility typography-SB14 {
+	font-weight: 600;
+	font-size: 14px;
+}
+@utility typography-SB15 {
+	font-weight: 600;
+	font-size: 15px;
+}
+@utility typography-SB16 {
+	font-weight: 600;
+	font-size: 16px;
+}
+@utility typography-SB18 {
+	font-weight: 600;
+	font-size: 18px;
+}
+@utility typography-SB20 {
+	font-weight: 600;
+	font-size: 20px;
+}
+@utility typography-SB22 {
+	font-weight: 600;
+	font-size: 22px;
+}
+@utility typography-SB24 {
+	font-weight: 600;
+	font-size: 24px;
+}
+@utility typography-SB26 {
+	font-weight: 600;
+	font-size: 26px;
+}
+@utility typography-SB28 {
+	font-weight: 600;
+	font-size: 28px;
+}
+@utility typography-SB30 {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+/* Bold */
+@utility typography-B10 {
+	font-weight: 700;
+	font-size: 10px;
+}
+@utility typography-B11 {
+	font-weight: 700;
+	font-size: 11px;
+}
+@utility typography-B12 {
+	font-weight: 700;
+	font-size: 12px;
+}
+@utility typography-B13 {
+	font-weight: 700;
+	font-size: 13px;
+}
+@utility typography-B14 {
+	font-weight: 700;
+	font-size: 14px;
+}
+@utility typography-B15 {
+	font-weight: 700;
+	font-size: 15px;
+}
+@utility typography-B16 {
+	font-weight: 700;
+	font-size: 16px;
+}
+@utility typography-B18 {
+	font-weight: 700;
+	font-size: 18px;
+}
+@utility typography-B20 {
+	font-weight: 700;
+	font-size: 20px;
+}
+@utility typography-B22 {
+	font-weight: 700;
+	font-size: 22px;
+}
+@utility typography-B24 {
+	font-weight: 700;
+	font-size: 24px;
+}
+@utility typography-B26 {
+	font-weight: 700;
+	font-size: 26px;
+}
+@utility typography-B28 {
+	font-weight: 700;
+	font-size: 28px;
+}
+@utility typography-B30 {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+/* Extra Bold */
+@utility typography-EB10 {
+	font-weight: 800;
+	font-size: 10px;
+}
+@utility typography-EB11 {
+	font-weight: 800;
+	font-size: 11px;
+}
+@utility typography-EB12 {
+	font-weight: 800;
+	font-size: 12px;
+}
+@utility typography-EB13 {
+	font-weight: 800;
+	font-size: 13px;
+}
+@utility typography-EB14 {
+	font-weight: 800;
+	font-size: 14px;
+}
+@utility typography-EB15 {
+	font-weight: 800;
+	font-size: 15px;
+}
+@utility typography-EB16 {
+	font-weight: 800;
+	font-size: 16px;
+}
+@utility typography-EB18 {
+	font-weight: 800;
+	font-size: 18px;
+}
+@utility typography-EB20 {
+	font-weight: 800;
+	font-size: 20px;
+}
+@utility typography-EB22 {
+	font-weight: 800;
+	font-size: 22px;
+}
+@utility typography-EB24 {
+	font-weight: 800;
+	font-size: 24px;
+}
+@utility typography-EB26 {
+	font-weight: 800;
+	font-size: 26px;
+}
+@utility typography-EB28 {
+	font-weight: 800;
+	font-size: 28px;
+}
+@utility typography-EB30 {
+	font-weight: 800;
+	font-size: 30px;
+}

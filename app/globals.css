@@ -1,0 +1,178 @@
+@import 'tailwindcss';
+@import './typography.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@plugin "tailwindcss-animate";
+@theme {
+	--breakpoint-*: initial;
+	--breakpoint-media-sm: 600px;
+	--breakpoint-media-md: 768px;
+	--breakpoint-media-lg: 1200px;
+
+	--color-*: initial;
+	--color-green-50: #e9edea;
+	--color-green-100: #d2dbd5;
+	--color-green-150: #bcc9c1;
+	--color-green-200: #a5b7ac;
+	--color-green-250: #8fa697;
+	--color-green-300: #789482;
+	--color-green-350: #62826d;
+	--color-green-400: #4b7059;
+	--color-green-450: #345e44;
+	--color-green-500: #1e4c2f;
+	--color-green-550: #1b442a;
+	--color-green-600: #183d26;
+	--color-green-650: #153521;
+	--color-green-700: #122e1c;
+	--color-green-750: #0f2618;
+	--color-green-800: #0c1e13;
+	--color-green-850: #09170e;
+	--color-green-900: #060f09;
+	--color-green-950: #030805;
+
+	--color-green-light-50: #f0fdf4;
+	--color-green-light-100: #dcfce7;
+	--color-green-light-200: #bbf7d0;
+	--color-green-light-300: #86efac;
+	--color-green-light-400: #4ade80;
+	--color-green-light-500: #22c55e;
+	--color-green-light-600: #16a34a;
+	--color-green-light-700: #15803d;
+	--color-green-light-800: #166534;
+	--color-green-light-900: #14532d;
+	--color-green-light-950: #052e16;
+
+	--color-gray-5: #fcfcfc;
+	--color-gray-10: #fafafb;
+	--color-gray-20: #f6f6f7;
+	--color-gray-30: #edeef0;
+	--color-gray-40: #dde0e2;
+	--color-gray-50: #d1d5d9;
+	--color-gray-60: #c6cacf;
+	--color-gray-70: #bbc1c6;
+	--color-gray-80: #afb6bd;
+	--color-gray-90: #a4abb3;
+	--color-gray-100: #8d97a0;
+	--color-gray-200: #76828d;
+	--color-gray-300: #606d7b;
+	--color-gray-400: #3d4d5e;
+	--color-gray-500: #1c2f42;
+	--color-gray-600: #172738;
+	--color-gray-700: #13202e;
+	--color-gray-800: #0d1720;
+	--color-gray-900: #080e13;
+
+	--color-red-5: #fefcfc;
+	--color-red-10: #fefafa;
+	--color-red-20: #fdf7f7;
+	--color-red-30: #fcf2f2;
+	--color-red-40: #fbebeb;
+	--color-red-50: #fae6e6;
+	--color-red-60: #f8dede;
+	--color-red-70: #f7d9d9;
+	--color-red-80: #f4cccc;
+	--color-red-90: #f2bfbf;
+	--color-red-100: #efb3b3;
+	--color-red-200: #e58080;
+	--color-red-300: #db4d4d;
+	--color-red-400: #d32626;
+	--color-red-500: #cc0000;
+	--color-red-600: #ad0000;
+	--color-red-700: #8e0000;
+	--color-red-800: #650000;
+	--color-red-900: #3c0000;
+
+	--color-orange-5: #fffefc;
+	--color-orange-10: #fffdfa;
+	--color-orange-20: #fffcf7;
+	--color-orange-30: #fffaf2;
+	--color-orange-40: #fff8eb;
+	--color-orange-50: #fff6e6;
+	--color-orange-60: #fff4de;
+	--color-orange-70: #fff2d9;
+	--color-orange-80: #ffeecc;
+	--color-orange-90: #ffe9bf;
+	--color-orange-100: #ffe5b3;
+	--color-orange-200: #ffd580;
+	--color-orange-300: #ffc44d;
+	--color-orange-400: #ffb726;
+	--color-orange-500: #ffab00;
+	--color-orange-600: #d99100;
+	--color-orange-700: #b27700;
+	--color-orange-800: #7f5500;
+	--color-orange-900: #4c3200;
+
+	--color-black: #0b0f0e;
+	--color-white: #ffffff;
+
+	--animate-accordion-down: accordion-down 0.2s ease-out;
+	--animate-accordion-up: accordion-up 0.2s ease-out;
+	--animate-bounced: bounced 0.5s infinite;
+
+	@keyframes accordion-down {
+		from {
+			height: 0;
+		}
+		to {
+			height: var(--radix-accordion-content-height);
+		}
+	}
+	@keyframes accordion-up {
+		from {
+			height: var(--radix-accordion-content-height);
+		}
+		to {
+			height: 0;
+		}
+	}
+	@keyframes bounced {
+		0%,
+		100% {
+			transform: translateY(-75%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: none;
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+}
+
+@utility container {
+	margin-inline: auto;
+	padding-inline: 1rem;
+	@media (width >= --theme(--breakpoint-media-sm)) {
+		max-width: none;
+	}
+	@media (width >= 1201px) {
+		max-width: 1201px;
+	}
+}
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentColor);
+	}
+}
+
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+}
+
+body {
+	color: rgb(var(--foreground-rgb));
+}

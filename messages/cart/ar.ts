@@ -1,0 +1,23 @@
+const cartAr = {
+	pageMetadata: { title: 'عربة التسوق' },
+	cart: 'عربة التسوق',
+	cartDesc: 'عرض منتجاتك المختارة',
+	coupon: 'كوبون',
+	subtotal: 'المجموع الفرعي',
+	taxesCalc: 'الشحن والضرائب يتم حسابها عند الدفع.',
+	discount: 'الخصم',
+	shipping: 'الشحن',
+	total: 'المجموع',
+	viewCart: 'عرض العربة',
+	checkout: 'الدفع',
+	emptyCart: 'العربة فارغة',
+	or: 'أو',
+	continueShopping: 'متابعة التسوق',
+	currency: 'ج.م',
+	summary: 'ملخص العربة',
+	code: 'كود الخصم',
+	redeem: 'استخدام',
+	free: 'مجاناً',
+	noDiscount: 'لا يوجد خصم',
+};
+export default cartAr;

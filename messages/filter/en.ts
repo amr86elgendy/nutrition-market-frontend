@@ -1,0 +1,25 @@
+const filterEn = {
+	filter: 'Filter',
+	brand: 'Brand',
+	category: 'Category',
+	price: 'Price',
+	rating: 'Rating',
+	dosageForm: 'Dosage Form',
+	from: 'from',
+	to: 'to',
+	apply: 'Apply',
+	clear: 'Clear',
+	clearAll: 'Clear all',
+	select: 'Select',
+	sortBy: 'Sort by',
+	bestSellers: 'Best Sellers',
+	topRated: 'Top Rated',
+	az: 'Alphabetically, A-Z',
+	za: 'Alphabetically, Z-A',
+	lth: 'Price, Low To High',
+	htl: 'Price, High To Low',
+	newOld: 'Date, New To Old',
+	oldNew: 'Date, Old To New',
+};
+
+export default filterEn;

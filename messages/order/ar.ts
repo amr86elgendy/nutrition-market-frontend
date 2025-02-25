@@ -1,0 +1,42 @@
+const orderAr = {
+	pageMetadata: {
+		title: 'الطلبات',
+		description: '',
+	},
+	myOrders: 'طلباتي',
+	orderId: 'رقم الطلب',
+	orderDate: 'تاريخ الطلب',
+	total: 'الإجمالي',
+	trackOrder: 'تتبع الطلب',
+	orderDetails: 'تفاصيل الطلب',
+	processing: 'قيد المعالجة',
+	processed: 'تمت المعالجة',
+	shipping: 'قيد الشحن',
+	shipped: 'تم الشحن',
+	delivering: 'قيد التوصيل',
+	delivered: 'تم التوصيل',
+	cancelled: 'تم الإلغاء',
+	paid: 'تم الدفع',
+	unpaid: 'لم يتم الدفع',
+	delivery: 'التسليم',
+	summary: 'ملخص الطلب',
+	subtotal: 'المجموع الفرعي',
+	address: 'العنوان',
+	phone: 'رقم الهاتف',
+	item: 'العناصر',
+	updatedAt: 'تم التحديث في',
+	shippingFee: 'مصاريف الشحن',
+	paymentMethod: 'طريقة الدفع',
+	cash: 'الدفع عند الاستلام',
+	card: 'بطاقة الدفع',
+	wallet: 'المحفظة الإلكترونية',
+	cancelOrder: 'إلغاء الطلب',
+	cancelDesc:
+		'يرجى ملاحظة أنه يمكنك فقط إلغاء طلبك إذا كان في حالة قيد المعالجة.',
+	thxForOrder: 'شكرًا لطلبك!',
+	thxDesc:
+		'سيتم إرسال طلبك إلى عنوانك عبر خدمة التوصيل المختارة بعد التأكيد من قبل الفرع الأقرب. يمكنك تتبع طلبك من خلال رقم الطلب.',
+	backMain: 'العودة إلى الصفحة الرئيسية',
+};
+
+export default orderAr;
